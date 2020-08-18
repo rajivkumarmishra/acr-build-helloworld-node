@@ -1,5 +1,4 @@
 ARG REGISTRY_NAME
-
 FROM node:9-alpine
 
 COPY . /src
