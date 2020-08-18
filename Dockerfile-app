@@ -1,6 +1,4 @@
-ARG REGISTRY_NAME
-
-FROM node:9-alpine
+FROM ra298538/uniper:001
 
 COPY . /src
 RUN cd /src && npm install
